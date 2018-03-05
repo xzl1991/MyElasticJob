@@ -1,8 +1,0 @@
-example\APP.class
-example\helloworld\HttpSessionConfig.class
-example\interceptor\MyAopTest.class
-example\conf\RedisConfig.class
-example\helloworld\TestRedisControll.class
-example\helloworld\Example.class
-example\holders\DBContextHolder.class
-example\annotations\MyAnnotation.class

@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="fastjson">
-    <CLASSES>
-      <root url="file://$MAVEN_REPOSITORY$/com/alibaba/fastjson" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

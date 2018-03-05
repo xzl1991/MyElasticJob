@@ -31,7 +31,7 @@ out/
 # system ignore
 .DS_Store
 Thumbs.db
-*.py
+
 #other
 /bin
 /.factorypath

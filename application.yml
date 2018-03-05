@@ -1,4 +1,0 @@
-#默认使用开发模式 (可使用 --spring.profiles.active=prod 切换环境)
-spring:
-  profiles:
-      active: dev

@@ -2,18 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath>
+          <entry name="$PROJECT_DIR$" />
+        </processorPath>
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="helloworld" />
+        <module name="MyElasticJob" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="helloworld" target="1.7" />
+      <module name="MyElasticJob" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
-    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+    <option name="DEPRECATION" value="false" />
   </component>
 </project>
