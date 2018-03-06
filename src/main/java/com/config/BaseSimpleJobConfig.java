@@ -18,6 +18,7 @@
 package com.config;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.dangdang.ddframe.job.api.ShardingContext;
 import com.dangdang.ddframe.job.api.simple.SimpleJob;
 import com.dangdang.ddframe.job.config.JobCoreConfiguration;
@@ -50,35 +51,31 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
-import java.util.Collection;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.UUID;
+import java.util.*;
 
 //import com.dangdang.ddframe.job.example.job.simple.SpringSimpleJob;
 
 //@Configuration
-@Component @Slf4j
-public abstract  class BaseSimpleJobConfig implements SimpleJob{
+@Data @Slf4j
+public abstract  class BaseSimpleJobConfig implements SimpleJob,InitializingBean{
 
     private JobScheduler scheduler ;
 
-    public String jobName ;
+    protected String cron;
+
+    protected Integer shardingTotalCount;
+
+    protected String shardingItemParameters;
+
+    protected String jobName;
+
+    protected String desc;
 
     private static final String SHARDING = "sharding";
 
     private static final String SHARD_INSTANCE = "instance";
 
     public static String flag = UUID.randomUUID().toString();
-
-
-
-//    public BaseSimpleJobConfig(String jobName){
-//        if (StringUtils.isEmpty(jobName)){
-//            this.jobName = System.currentTimeMillis()+"--";
-//        }
-//        this.jobName = jobName;
-//    }
     @Resource
     private ZookeeperRegistryCenter regCenter;
 
@@ -96,17 +93,19 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob{
      * @return SpringBatchJob
      */
     protected abstract Job job();
+    /**
+     * 子类返回ElasticJob实体，方便jobScheduler方法调用生成对应实体
+     * @return ElasticJob实例
+     */
+    protected abstract BaseSimpleJobConfig getBean();
+
     @Override
     public void execute(final ShardingContext shardingContext) {
         System.out.println(String.format("-MySimpleJob-----Thread ID: %s, 任务总片数: %s, 当前分片项: %s",
                 Thread.currentThread().getId(), shardingContext.getShardingTotalCount(), shardingContext.getShardingItem()));
         log.info("开始execute调度中心分配的任务,shardingContext:{}", JSON.toJSONString(shardingContext));
-        JobParameters jobParameters =  new JobParameters(new HashMap<String, JobParameter>(){
-            {put("shardingParameter",new JobParameter(shardingContext.getShardingParameter()));};
-            {put("shardingCount",new JobParameter(shardingContext.getShardingTotalCount()+""));};
-            {put("shardingItem",new JobParameter(shardingContext.getShardingItem()+""));};
-        });;
         try {
+            JobParameters jobParameters =  jobParameters(shardingContext);
             ((JobLauncher) SpringContextHolder.getBean("jobLauncher")).run(job(), jobParameters);
         } catch (JobExecutionAlreadyRunningException e) {
             log.info("spring-batch任务已经在运行中!");
@@ -122,11 +121,29 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob{
             e.printStackTrace();
         }
     }
-    @Bean(initMethod = "init")
-    public JobScheduler simpleJobScheduler( @Value("${simpleJob.cron}") final String cron, @Value("${simpleJob.shardingTotalCount}") final int shardingTotalCount,
-                                            @Value("${simpleJob.shardingItemParameters}") final String shardingItemParameters) {
+    /**
+     * 初始化spring-batch需要的参数
+     * @param shardingContext elasticJob分配的分片参数，包括分片总数和分片id对10余数
+     * @return SpingBatch.JobParamters
+     */
+    private JobParameters jobParameters(ShardingContext shardingContext) {
+        final String shardingParameter = shardingContext.getShardingParameter();
+        final int shardingCount = shardingContext.getShardingTotalCount();
+        final int shardingItem = shardingContext.getShardingItem();
+        Map<String, JobParameter> map = new HashMap<String, JobParameter>(){
+            {put("shardingParameter",new JobParameter(shardingParameter));}
+            {put("shardingCount",new JobParameter(shardingCount+""));}
+            {put("shardingItem",new JobParameter(shardingItem+""));}
+            {put("Date", new JobParameter(System.currentTimeMillis()));}
+        };
+        return new JobParameters(map);
+    }
+//    @Bean(initMethod = "init")
+//    public JobScheduler simpleJobScheduler( @Value("${elastic-job.testSkip.cron}") final String cron, @Value("${elastic-job.simpleJob.shardingTotalCount}") final int shardingTotalCount,
+//                                            @Value("${elastic-job.testSkip.shardingItemParameters}") final String shardingItemParameters) {
+    private JobScheduler simpleJobScheduler() {//值从子类获取
         System.out.println("simpleJobScheduler======实例化=========");
-        scheduler = new SpringJobScheduler(this, regCenter, getLiteJobConfiguration(this.getClass(), cron, shardingTotalCount, shardingItemParameters), jobEventConfiguration);
+        scheduler = new SpringJobScheduler(getBean(), regCenter, getLiteJobConfiguration(getBean().getClass(), cron, shardingTotalCount, shardingItemParameters), jobEventConfiguration);
         return scheduler;
     }
     private LiteJobConfiguration getLiteJobConfiguration(final Class<? extends SimpleJob> jobClass, final String cron, final int shardingTotalCount, final String shardingItemParameters) {
@@ -134,6 +151,10 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob{
                 jobName, cron, shardingTotalCount).shardingItemParameters(shardingItemParameters).build(), jobClass.getCanonicalName())).overwrite(true).build();
     }
 
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        simpleJobScheduler().init();
+    }
     /**
      * 基础job监听器
      */

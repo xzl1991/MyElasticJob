@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.StepContribution;
+import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.core.scope.context.ChunkContext;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.item.ItemWriter;
@@ -25,7 +26,7 @@ import java.util.List;
 @Component
 //@Scope("prototype")
 public class MyStep extends BaseStep {
-    public MyStep(@Value("${simpleJob.interval}") String[] interval){
+    public MyStep(@Value("${elastic-job.simpleJob.interval}") String[] interval){
         super(interval);
     }
     @Override

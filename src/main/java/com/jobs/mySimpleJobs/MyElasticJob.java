@@ -19,17 +19,11 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "elastic-job.testSkip")
 @Slf4j
-
 public class MyElasticJob extends BaseSimpleJobConfig{
-    public String getJobName() {
-        return jobName;
-    }
 
-    public void setJobName(String jobName) {
-        this.jobName = jobName;
-    }
-    public MyElasticJob(){
-        this.jobName = "测试-skip";
+    @Override
+    protected BaseSimpleJobConfig getBean() {
+        return this;
     }
     @Override
     protected Job job() {
