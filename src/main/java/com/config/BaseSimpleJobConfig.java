@@ -50,6 +50,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
+import java.lang.annotation.Inherited;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -93,6 +94,12 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob,InitializingBean
      * @return SpringBatchJob
      */
     protected abstract Job job();
+
+    /**
+     * JobParameters jobParameters 根据自定义参数生成
+     * @return SpringBatchJob
+     */
+    protected abstract Job job(String jobName);
     /**
      * 子类返回ElasticJob实体，方便jobScheduler方法调用生成对应实体
      * @return ElasticJob实例
@@ -126,7 +133,7 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob,InitializingBean
      * @param shardingContext elasticJob分配的分片参数，包括分片总数和分片id对10余数
      * @return SpingBatch.JobParamters
      */
-    private JobParameters jobParameters(ShardingContext shardingContext) {
+    protected JobParameters jobParameters(final ShardingContext shardingContext) {
         final String shardingParameter = shardingContext.getShardingParameter();
         final int shardingCount = shardingContext.getShardingTotalCount();
         final int shardingItem = shardingContext.getShardingItem();
@@ -135,6 +142,7 @@ public abstract  class BaseSimpleJobConfig implements SimpleJob,InitializingBean
             {put("shardingCount",new JobParameter(shardingCount+""));}
             {put("shardingItem",new JobParameter(shardingItem+""));}
             {put("Date", new JobParameter(System.currentTimeMillis()));}
+            {put("jobParameter", new JobParameter(shardingContext.getJobParameter()));}
         };
         return new JobParameters(map);
     }

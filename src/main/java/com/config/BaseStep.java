@@ -12,8 +12,8 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 public abstract class BaseStep {
 
-//    @Autowired
-//    protected ZookeeperRegistryCenter zkCenter;
+    @Autowired
+    protected ZookeeperRegistryCenter zkCenter;
     @Autowired
     protected StepBuilderFactory stepBuilderFactory;
     protected int write = 128;
@@ -21,6 +21,8 @@ public abstract class BaseStep {
     protected int read = 256;
 
     protected int process = 256;
+
+    StepExecution stepExecution;
 
     public BaseStep(String[] interval) {
         if (interval != null) {
@@ -56,7 +58,11 @@ public abstract class BaseStep {
 //        }
         @Override
         public void beforeStep(StepExecution stepExecution) {
-
+            stepExecution = stepExecution;
+            stepExecution.getJobExecution();
+            stepExecution.getJobParameters();
+            this.jobName = stepExecution.getJobExecution().getJobInstance().getJobName();
+            System.out.println("-----------------MystepExecution ==========="+stepExecution.getJobExecution().getJobId());
         }
 
         @Override
