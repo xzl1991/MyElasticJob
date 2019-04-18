@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="deddaa6f-b95c-4505-9141-481639b5db6d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/DynamicAddJobConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/StepForDynamicAddJob.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/BaseStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/config/BaseStep.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/SimpleJobConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/DynamicAddJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/StepForDynamicAddJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/config/BaseStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/config/BaseStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/SimpleJobConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BaseSimpleJobConfig.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+            <state relative-caret-position="3444">
+              <caret line="173" selection-start-line="173" selection-end-line="173" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseRead.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseRead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="840">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#1084#1085#0" expanded="true" />
               </folding>
@@ -47,21 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-local.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyStep.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
+            <state relative-caret-position="2576">
+              <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
               <folding>
                 <element signature="e#1307#1308#0" expanded="true" />
                 <element signature="e#1338#1339#0" expanded="true" />
@@ -70,21 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseWrite.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseWrite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="616">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicAddJobConfig.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/DynamicAddJobConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+            <state relative-caret-position="1064">
+              <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1136#1137#0" expanded="true" />
@@ -96,21 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyElasticJob.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="840">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseStep.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseStep.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="1652">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="e#2296#2297#0" expanded="true" />
                 <element signature="e#2331#2332#0" expanded="true" />
@@ -119,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepForDynamicAddJob.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/StepForDynamicAddJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2918">
-              <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+            <state relative-caret-position="3136">
+              <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2279#2280#0" expanded="true" />
@@ -133,12 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-test.yml" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-396">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="224">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -192,11 +187,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -240,14 +230,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/DynamicAddJobConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-local.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -288,10 +273,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1018" />
+    <option name="x" value="680" />
+    <option name="width" value="1239" />
+    <option name="height" value="1019" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -665,34 +649,12 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
+    <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MyElasticJob" type="58d84e3e:PackageViewProjectNode" />
-              <item name="MyElasticJob" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -711,633 +673,40 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mySimpleJobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mySimpleJobs" type="462c0819:PsiDirectoryNode" />
-              <item name="StepForDynamicAddJob.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lock" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyElasticJob" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="executor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="executor" type="462c0819:PsiDirectoryNode" />
-              <item name="type" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="reg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="reg" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-common-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-common-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="reg" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="election" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="schedule" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-core:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-core-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="lite" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-spring:2.1.4" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-spring:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-spring-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-spring:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-spring-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.dangdang:elastic-job-lite-spring:2.1.4" type="70bed36:NamedLibraryElementNode" />
-              <item name="elastic-job-lite-spring-2.1.4.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.google.guava:guava:18.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.google.guava:guava:18.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.google.guava:guava:18.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.google.guava:guava:18.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.google.guava:guava:18.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="guava-18.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.curator:curator-framework:2.10.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.curator:curator-framework:2.10.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-framework-2.10.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.curator:curator-framework:2.10.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-framework-2.10.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.curator:curator-framework:2.10.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="curator-framework-2.10.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="imps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-              <item name="ee" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-              <item name="ee" type="462c0819:PsiDirectoryNode" />
-              <item name="jta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.quartz-scheduler:quartz:2.2.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="quartz-2.2.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="quartz" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="builder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="flow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="launch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="launch" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.batch:spring-batch-core:3.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-batch-core-3.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-beans:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-beans-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyElasticJob" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:4.3.8.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-4.3.8.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="spring.boot" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../elastic-example/elastic-job-example-lite-springboot" />
-    <property name="SearchEverywhereHistoryKey" value="-loc&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-loca&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-l&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-lo&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-test.yml&#10;MyElasticJob&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/MyElasticJob.iml" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelOrder0" value="0" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth2" value="75" />
-    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="-loc&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-loca&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-l&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-lo&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-local.yml&#10;-&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/src/main/resources/application-test.yml&#10;MyElasticJob&#9;FILE&#9;file://D:/bootErmas/MyElasticJob/MyElasticJob.iml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555601661599" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.config" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bootErmas\MyElasticJob\src\main\java\com\config" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyProjects\MyElasticJob\src\main" />
       <recent name="D:\bootErmas\MyElasticJob\src\main\java\com\jobs\mySimpleJobs" />
       <recent name="D:\bootErmas\MyElasticJob\src\main\resources" />
       <recent name="D:\bootErmas\MyElasticJob\src\main\java\com\config" />
@@ -1348,8 +717,8 @@
       <recent name="com.config" />
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\bootErmas\MyElasticJob\src\main\java\com\config" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1365,113 +734,68 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SpringBootMain">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SpringBootMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringBootMain" />
       <module name="MyElasticJob" />
-      <envs />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringBootMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="TestMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MyElasticJob" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.TestMain" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <module name="MyElasticJob" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SpringBootMain" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.TestMain" />
+    <list>
+      <item itemvalue="Spring Boot.SpringBootMain" />
+      <item itemvalue="Spring Boot.TestMain" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.TestMain" />
+      <list>
+        <item itemvalue="Spring Boot.TestMain" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1496,50 +820,53 @@
       <workItem from="1523350536905" duration="568000" />
       <workItem from="1523930219047" duration="38045000" />
       <workItem from="1524462659242" duration="14324000" />
+      <workItem from="1555601283680" duration="340000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140739000" />
+    <option name="totallyTimeSpent" value="141079000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2260355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6446281" sideWeight="0.50323975" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58343196" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10887574" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29319656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16923077" sideWeight="0.49676025" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2769231" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22855228" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2769231" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49784017" weight="0.10887574" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49676025" visible="true" weight="0.16923077" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.58343196" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50323975" side_tool="true" weight="0.6446281" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.2260355" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32991362" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1731,9 +1058,7 @@
           <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="109" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1785,452 +1110,96 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/DataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/config/simple/SimpleJobConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/config/JobCoreConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/config/simple/SimpleJobConfiguration.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/config/JobCoreConfiguration.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.8.RELEASE/spring-context-4.3.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/utils/SpringContextHolder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/WorkSoft/jdk/jdk1.8.0_162/src.zip!/java/lang/annotation/Inherited.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://D:/WorkSoft/jdk/jdk1.8.0_162/src.zip!/java/lang/annotation/Inherited.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/SimpleJobConfig.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/job/flow/FlowJob.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/job/flow/FlowJob.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/job/builder/JobBuilderHelper.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/configuration/annotation/JobBuilderFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-spring/2.1.4/elastic-job-lite-spring-2.1.4.jar!/com/dangdang/ddframe/job/lite/spring/api/SpringJobScheduler.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/ElasticJob.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/api/JobScheduler.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/launch/JobLauncher.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/server/ServerNode.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/launch/support/SimpleJobLauncher.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/impl/JobExecutionContextImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/ee/jta/JTAJobRunShell.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/Job.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/JobFacade.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/schedule/LiteJobFacade.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/config/ConfigurationService.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/reg/base/CoordinatorRegistryCenter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/storage/JobNodePath.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/reg/zookeeper/ZookeeperRegistryCenter.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.10.0/curator-framework-2.10.0.jar!/org/apache/curator/framework/imps/CuratorFrameworkImpl.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/election/LeaderService.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/storage/JobNodeStorage.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/core/JobRunShell.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/schedule/LiteJob.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/JobExecutorFactory.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/type/SimpleJobExecutor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/AbstractElasticJobExecutor.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/listener/JobParameterExecutionContextCopyListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepExecution.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepExecutionListener.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/ShardingContext.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/simple/SimpleJob.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/JobParameters.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/job/builder/JobBuilderHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/configuration/annotation/JobBuilderFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-spring/2.1.4/elastic-job-lite-spring-2.1.4.jar!/com/dangdang/ddframe/job/lite/spring/api/SpringJobScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/ElasticJob.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/api/JobScheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/launch/JobLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/server/ServerNode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/launch/support/SimpleJobLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/impl/JobExecutionContextImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="91" column="21" lean-forward="false" selection-start-line="91" selection-start-column="21" selection-end-line="91" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/ee/jta/JTAJobRunShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/Job.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/JobFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/schedule/LiteJobFacade.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/config/ConfigurationService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/reg/base/CoordinatorRegistryCenter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/storage/JobNodePath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/reg/zookeeper/ZookeeperRegistryCenter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="174" column="0" lean-forward="false" selection-start-line="174" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/curator/curator-framework/2.10.0/curator-framework-2.10.0.jar!/org/apache/curator/framework/imps/CuratorFrameworkImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="299" column="0" lean-forward="false" selection-start-line="299" selection-start-column="0" selection-end-line="299" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/base/Preconditions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/election/LeaderService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/storage/JobNodeStorage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/quartz-scheduler/quartz/2.2.1/quartz-2.2.1.jar!/org/quartz/core/JobRunShell.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-lite-core/2.1.4/elastic-job-lite-core-2.1.4.jar!/com/dangdang/ddframe/job/lite/internal/schedule/LiteJob.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/JobExecutorFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/type/SimpleJobExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/executor/AbstractElasticJobExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/listener/JobParameterExecutionContextCopyListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepExecution.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5292">
-          <caret line="217" column="0" lean-forward="false" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+        <state relative-caret-position="3444">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
           <folding>
-            <marker date="1502867474145" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1502867474145" expanded="false" signature="154:428" ph="..." />
-            <marker date="1502867474145" expanded="true" signature="1308:1635" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="1706:2378" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="2423:3087" ph="{...}" />
-            <marker date="1502867474145" expanded="false" signature="3138:3149" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3178:3184" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3256:3267" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3308:3314" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3347:3358" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3382:3388" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3437:3448" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3479:3485" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3515:3526" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3546:3552" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3594:3605" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3628:3634" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3665:3676" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3698:3704" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3749:3760" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3787:3793" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3825:3836" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3859:3865" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3912:3923" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="3952:3958" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="3993:4004" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4030:4036" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4069:4080" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4104:4110" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4159:4170" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4201:4207" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4260:4271" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4306:4312" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4344:4355" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4377:4383" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4429:4440" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4467:4473" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4509:4520" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4539:4545" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4592:4603" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4624:4630" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4681:4692" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4736:4742" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4775:4786" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4807:4813" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4850:4861" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="4929:4935" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="4989:5000" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5029:5035" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="5074:5085" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5108:5114" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="5157:5168" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5193:5199" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="5253:5264" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5298:5304" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="5372:5824" ph="{...}" />
-            <marker date="1502867474145" expanded="false" signature="5879:5890" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5911:5917" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="5955:5966" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="5992:5998" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6034:6045" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6071:6077" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6108:6119" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6191:6197" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6237:6248" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6267:6273" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="6319:6429" ph="{...}" />
-            <marker date="1502867474145" expanded="false" signature="6464:6475" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6501:6507" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6543:6554" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6581:6587" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6640:6651" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6686:6692" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6747:6758" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6795:6801" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6839:6850" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6879:6885" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="6944:6955" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="6996:7002" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="7036:7047" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="7071:7077" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="7127:7138" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="7169:7175" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="7226:7237" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="7267:7273" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="7331:7342" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="7380:7386" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="7426:7856" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="7955:8048" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="8076:8372" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="8403:8522" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="8555:8998" ph="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepListener.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="840">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <marker date="1502867474145" expanded="false" signature="0:104" ph="/.../" />
+            <element signature="e#1084#1085#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/StepExecutionListener.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
+        <state relative-caret-position="2576">
+          <caret line="117" column="5" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
           <folding>
-            <marker date="1502867474145" expanded="false" signature="0:104" ph="/.../" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1338#1339#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/ShardingContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseWrite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <marker date="1502867486944" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1502867486944" expanded="true" signature="551:951" ph="{...}" />
-            <marker date="1502867486944" expanded="true" signature="983:994" ph=" { " />
-            <marker date="1502867486944" expanded="true" signature="1014:1020" ph=" }" />
-            <marker date="1502867486944" expanded="false" signature="1051:1062" ph=" { " />
-            <marker date="1502867486944" expanded="false" signature="1081:1087" ph=" }" />
-            <marker date="1502867486944" expanded="false" signature="1127:1138" ph=" { " />
-            <marker date="1502867486944" expanded="false" signature="1169:1175" ph=" }" />
-            <marker date="1502867486944" expanded="false" signature="1212:1223" ph=" { " />
-            <marker date="1502867486944" expanded="false" signature="1248:1254" ph=" }" />
-            <marker date="1502867486944" expanded="false" signature="1288:1299" ph=" { " />
-            <marker date="1502867486944" expanded="false" signature="1324:1330" ph=" }" />
-            <marker date="1502867486944" expanded="false" signature="1372:1383" ph=" { " />
-            <marker date="1502867486944" expanded="false" signature="1413:1419" ph=" }" />
-            <marker date="1502867486944" expanded="true" signature="1450:1761" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/dangdang/elastic-job-common-core/2.1.4/elastic-job-common-core-2.1.4.jar!/com/dangdang/ddframe/job/api/simple/SimpleJob.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <marker date="1502867486944" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1502867486944" expanded="false" signature="159:252" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/batch/spring-batch-core/3.0.7.RELEASE/spring-batch-core-3.0.7.RELEASE.jar!/org/springframework/batch/core/JobParameters.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="69" column="37" lean-forward="false" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
-          <folding>
-            <marker date="1502867474145" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1502867474145" expanded="false" signature="154:336" ph="..." />
-            <marker date="1502867474145" expanded="false" signature="474:485" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="523:529" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="593:604" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="652:658" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="696:935" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="992:1083" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="1125:1257" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="1320:1413" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="1455:1700" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="1763:1856" ph="{...}" />
-            <marker date="1502867474145" expanded="false" signature="1893:1904" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="1941:1947" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="2004:2135" ph="{...}" />
-            <marker date="1502867474145" expanded="true" signature="2189:2200" ph=" { " />
-            <marker date="1502867474145" expanded="true" signature="2242:2248" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="2278:2289" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="2322:2328" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="2368:2645" ph="{...}" />
-            <marker date="1502867474145" expanded="false" signature="2672:2683" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="2727:2733" ph=" }" />
-            <marker date="1502867474145" expanded="false" signature="2763:2774" ph=" { " />
-            <marker date="1502867474145" expanded="false" signature="2808:2814" ph=" }" />
-            <marker date="1502867474145" expanded="true" signature="2853:3242" ph="{...}" />
-          </folding>
+        <state relative-caret-position="616">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/DynamicAddJobConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="55" column="1" lean-forward="false" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        <state relative-caret-position="1064">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1136#1137#0" expanded="true" />
@@ -2241,38 +1210,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-local.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="26" column="53" lean-forward="false" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#1084#1085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseSimpleJobConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseStep.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="1652">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
           <folding>
             <element signature="e#2296#2297#0" expanded="true" />
             <element signature="e#2331#2332#0" expanded="true" />
@@ -2280,37 +1228,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyElasticJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/config/BaseWrite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/MyStep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="117" column="5" lean-forward="false" selection-start-line="117" selection-start-column="5" selection-end-line="117" selection-end-column="5" />
-          <folding>
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jobs/mySimpleJobs/StepForDynamicAddJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2918">
-          <caret line="148" column="5" lean-forward="false" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+        <state relative-caret-position="3136">
+          <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2279#2280#0" expanded="true" />
@@ -2321,9 +1242,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="224">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>

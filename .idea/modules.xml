@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyElasticJob.iml" filepath="$PROJECT_DIR$/MyElasticJob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ermasBatch.iml" filepath="$PROJECT_DIR$/ermasBatch.iml" />
     </modules>
   </component>
 </project>

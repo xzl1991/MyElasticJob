@@ -11,10 +11,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ermasBatch" />
         <module name="MyElasticJob" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="ermasBatch" target="1.5" />
       <module name="MyElasticJob" target="1.7" />
     </bytecodeTargetLevel>
   </component>

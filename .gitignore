@@ -2,11 +2,12 @@
 target/
 out/
 *.jar
+
 *.war
 *.zip
 *.tar
 *.tar.gz
-
+!idea-gitignore.jar  # 但 lib.a 除外
 #log
 *.log
 
